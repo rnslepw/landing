@@ -10,19 +10,26 @@ body {
 
 header {
   background-color: #1f2937;
-  padding: 1rem 1.5rem;
+  color: #e5e7eb;
+  padding: 1.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 nav {
-  color: #e5e7eb;
   font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
 }
 
 .logo {
   font-size: 1.5rem;
+  font-weight: bold;
+  color: #f9faf8;
 }
 
 ul {
@@ -38,4 +45,75 @@ nav ul {
 a {
   color: #e5e7eb;
   text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  gap: 3rem;
+}
+
+.hero-text, .hero-img {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.info {
+  padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.info-title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.info-square {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  border: 0.5rem  solid #3882f6;
 }
