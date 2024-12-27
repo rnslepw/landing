@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 1rem 1.5rem;
+}
+
+nav {
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
